@@ -115,24 +115,24 @@ public class LoginTests {
 	@Parameters({ "username", "password", "expectedMessage" })
 	@Test(priority = 2, groups = { "negativeTests", "smokeTests" })
 	public void negativeLoginTest(String username, String password, String expectedErrorMessage) {
-//		Test case 2: Negative username test
+//		Test case 2: Negative LogIn test
 		System.out.println("Test Started");
 
 //		Open page
 		String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 		driver.get(url);
 
-//		Type incorrect into Username field
+//		Type Username into Username field (both Incorrect and Correct)
 		wait = new WebDriverWait(driver, Duration.ofSeconds(1));
 		WebElement usernameElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("username")));
 
 		usernameElement.sendKeys(username);
 
-//		Type password into Password field
+//		Type password into Password field (both Incorrect and Correct)
 		WebElement passwordElement = driver.findElement(By.name("password"));
 		passwordElement.sendKeys(password);
 
-//		Click LogIn Button button
+//		Click LogIn Button
 		WebElement logInButton = driver.findElement(By.tagName("button"));
 		logInButton.click();
 		sleep(1);
