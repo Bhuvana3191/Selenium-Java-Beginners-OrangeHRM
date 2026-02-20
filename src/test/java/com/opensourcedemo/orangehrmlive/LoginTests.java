@@ -115,7 +115,7 @@ public class LoginTests {
 	@Parameters({ "username", "password", "expectedMessage" })
 	@Test(priority = 2, groups = { "negativeTests", "smokeTests" })
 	public void negativeLoginTest(String username, String password, String expectedErrorMessage) {
-//		Test case 2: Negative LogIn test
+//		Test case 2 & 3: Negative LogIn test
 		System.out.println("Test Started");
 
 //		Open page
