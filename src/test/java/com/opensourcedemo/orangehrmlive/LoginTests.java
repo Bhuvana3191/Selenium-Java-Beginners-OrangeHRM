@@ -169,7 +169,7 @@ public class LoginTests {
 		WebElement password = driver.findElement(By.name("password"));
 		password.sendKeys("");
 
-		// Click LogIn Button button WebElement logInButton
+		// Click LogIn Button
 		WebElement logInButton = driver.findElement(By.tagName("button"));
 		logInButton.click();
 		sleep(1);
