@@ -65,4 +65,4 @@ The purpose of this project is to practice and demonstrate:
 
 ## Author
 
-**Bhuvaneswari**
+**Bhuvaneswari Kalyanaraman**
