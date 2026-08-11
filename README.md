@@ -1,4 +1,9 @@
 # Selenium Java – OrangeHRM Automation Project
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Selenium](https://img.shields.io/badge/Selenium-4.21.0-43B02A)
+![TestNG](https://img.shields.io/badge/TestNG-7.10.2-FF6C37)
+![Maven Compiler](https://img.shields.io/badge/Maven%20Compiler-3.13.0-C71A36)
+![Maven Surefire](https://img.shields.io/badge/Maven%20Surefire-3.2.5-C71A36)
 
 ## Project Description
 
